@@ -1,5 +1,5 @@
 import unittest
-from main.lab import get_html_headers, get_md_headers, transform_txt
+from src.main.lab import get_html_headers, get_md_headers, transform_txt
 
 class TestTransform(unittest.TestCase):
 

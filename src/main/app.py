@@ -1,4 +1,4 @@
-from main.lab import transform_html, transform_txt, transform_md
+from src.main.lab import transform_html, transform_txt, transform_md
 import sys
 
 # Use this program to manually check your work
