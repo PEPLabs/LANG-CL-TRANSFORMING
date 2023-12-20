@@ -17,7 +17,7 @@ def read_file(file_name):
 # a label for the header
 # ex: [("p", "Paragraph"), ("h6", "Header 6"))]
 def get_html_headers():
-    return [("h1", "Header1"), ("h2", "Header2")]
+    return []
 
 # TODO: Return Markdown headers to split on
 # Format should be a list of tuples, where the first 
@@ -25,7 +25,7 @@ def get_html_headers():
 # a label for the header
 # ex: [("##", "Header2"), ...]
 def get_md_headers():
-    return [("##", "Header2"), ("###", "Header3"), ("####", "Header4"), ("#####", "Header5")]
+    return []
 
 # Given file name, return the HTML split into chunks
 # DO NOT modify this code but please read to understand
@@ -52,7 +52,7 @@ def transform_md(file_name):
 def transform_txt(file_name):
     doc = read_file(file_name)
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 100,
+        chunk_size = 0,
         chunk_overlap = 0,
         length_function = len,
         is_separator_regex = False,

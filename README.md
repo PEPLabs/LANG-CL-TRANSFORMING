@@ -9,8 +9,8 @@ This lab will utilize LangChain to transform documents. The main method of trans
 - Take a look at the official [Python Langchain Docs](https://python.langchain.com/docs/expression_language/get_started)
 
 ## Shouldn't Modify (But Look at for Context)
-- [main/app.py](main/app.py) (Can also run this for manual testing)
-- [test/test.py](test/test.py)
+- [main/app.py](src/main/app.py) (Can also run this for manual testing)
+- [test/test.py](src/test/test.py)
 
 ## Should Modify
-- [main/lab.py](main/lab.py) - look out for TODO statements
+- [main/lab.py](src/main/lab.py) - look out for TODO statements

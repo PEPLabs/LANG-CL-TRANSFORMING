@@ -10,8 +10,8 @@ if __name__ == '__main__':
         filen = sys.argv[1]
     else:
         filen = input("Enter file name: ").strip()
-        if filen[0:10] != 'resources/':
-            filen = 'resources/' + filen
+        if filen[0:10] != 'src/resources/':
+            filen = 'src/resources/' + filen
 
     L = filen.split(".")
     if L[-1] == "html":
