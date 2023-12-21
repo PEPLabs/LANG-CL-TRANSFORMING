@@ -24,7 +24,7 @@ class TestTransform(unittest.TestCase):
         self.assertIn("#####", L)
     
     def test_text_splitter(self):
-        split_text = transform_txt("src/resources/sample.txt")
+        split_text = transform_txt("resources/sample.txt")
         self.assertIsInstance(split_text, list)
         self.assertGreater(len(split_text), 1)
         self.assertLess(len(split_text), 10)
