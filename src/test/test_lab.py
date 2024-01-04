@@ -1,7 +1,8 @@
 import unittest
 from src.main.lab import get_html_headers, get_md_headers, transform_txt
+from src.utilities.llm_testing_util import llm_wakeup, llm_connection_check, classify_relevancy
 
-class TestTransform(unittest.TestCase):
+class TestLLMResponses(unittest.TestCase):
 
     def test_html_headers(self):
         headers = get_html_headers()

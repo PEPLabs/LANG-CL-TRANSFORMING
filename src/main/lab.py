@@ -52,7 +52,7 @@ def transform_md(file_name):
 def transform_txt(file_name):
     doc = read_file(file_name)
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 0,
+        chunk_size = 1,
         chunk_overlap = 0,
         length_function = len,
         is_separator_regex = False,
